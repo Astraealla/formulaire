@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <h1>FORMULAIRE</h1>
+        <form method="POST" action="php/traitement.php">
+            <div class="center">
+                <label for="name">Nom</label>
+                <input id="name" type="text" name="nom">
+            </div>
+    
+            <div class="center">
+                <label for="prénom">Prénom</label>
+                <input id="firstname" type="text" name="prenom">
+            </div>
+    
+            <div class="center">
+                <label for="email">Email</label>
+                <input id="mail" type="text" name="mail">
+            </div>
+    
+            <div class="center">
+                <label for="mdp">Mot de Passe</label>
+                <input id="mdp" type="password" name="mdp">
+            </div>
+    
+            <div class="center">
+                <label for="confirmmdp">Confirmez le mot de passe</label>
+                <input id="confirmmdp" type="password" name="mdp2">
+            </div>
+    
+            <div class="center">
+                <label for="checkbox">Cocher pour accepter les termes CGU</label>
+                <input id="checkbox" type="checkbox" name="cocher">
+            </div>
+    
+            <div class="center">
+                <input id="valider" type="submit" name="submit">
+            </div>
+    
+        </form>
+    
+</body>
+</html>
